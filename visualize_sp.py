@@ -34,7 +34,6 @@ def main():
                                arrow_size=0.2,
                                color=carla.Color(0, 255, 0, 0),  # green color with no alpha transparency
                                life_time=10.0)
-        
         # Draw the spawn point number
         world.debug.draw_string(spawn_point.location + carla.Location(z=2),
                                 f'#{i}',
