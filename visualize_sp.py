@@ -1,5 +1,4 @@
 import carla
-import random
 
 def main():
     # Connect to the CARLA server
