@@ -28,7 +28,7 @@ def move_spectator_to_spawn_point(world, spawn_point_index):
                                                 spawn_point.rotation))
         print(f"Moved spectator to spawn point #{spawn_point_index}")
     else:
-        print(f"Invalid spawn point index: {spawn_point_index}")
+        print(f"Invalid spawn point index: {spawn_point_index}, make sure it is between 0 and {len(spawn_points) - 1}")
 
 def main():
     # Connect to the CARLA server
